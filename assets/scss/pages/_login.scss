@@ -1,0 +1,65 @@
+.page-login {
+  .title-section {
+    background-color: rgba(114, 180, 182, 0.267);
+    padding: 30px 0px;
+  }
+  .form-section-login {
+    padding: 50px 0;
+    text-align: center;
+    color: black;
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(0deg, #0b4b4b9a, #0b4b4b9a),
+      url("../images/login_re_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 30px 0;
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    form {
+      color: azure;
+      background: rgba(224, 224, 224, 0.35);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(2.5px);
+      -webkit-backdrop-filter: blur(2.5px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: azure;
+      a{
+        color:#000066;
+      }
+    }
+    p {
+      padding-bottom: 20px;
+      margin-top: 20px;
+    }
+    p.error {
+      color: red;
+    }
+    label,
+    input {
+      display: block;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      text-align: left;
+      
+    }
+    label {
+      font-weight: bold;
+    }
+    input {
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 7px;
+      color: black;
+    }
+    button {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}

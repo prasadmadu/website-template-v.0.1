@@ -1,0 +1,82 @@
+.page-sell{
+.title-advertisment{ 
+    .img-div{
+        background: linear-gradient(0deg, #0b4b4b9a, #0b4b4b9a), url("../images/sel-bg.jpg");
+        width: 100%;
+        color: rgb(1, 1, 15);
+        font-weight: 200px;
+        a{
+            color: rgb(1, 1, 15);
+            font-weight: 200px;
+        }
+        input,label{
+            display: block;
+            width: 100%;
+        }
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+        }
+        
+        .pri-int{
+            margin-bottom: 10px;
+        }
+        
+
+    }
+    margin-top: 10px;
+    
+    .btn-ok{
+        width: 100%;
+        margin-top: 20px;
+        button{
+            width: 60px;
+        }
+        text-align: right;
+    }
+    .add{
+        padding-left: 0;
+        width: 100%;
+        .btn-add{
+           text-align: center; 
+           height: 50px;
+        }
+    }
+    
+    a{
+        text-align: left;
+    }
+    h6{
+        text-align: left;
+    }
+    .btn-online{
+        padding-top: 10px;
+        h5{
+            color: rgb(226, 12, 12);
+        }
+    } 
+    .art-ad{
+        text-align: center;
+        height: 100%;
+       
+    }
+    .pub-btn{
+        margin-top: 50px;
+        text-align: right;
+        justify-content: flex-end;
+        a{
+            padding: 10px;
+        }
+    }
+
+}
+}
